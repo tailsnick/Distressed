@@ -1,8 +1,8 @@
 {
-    "id": "afb05328-7767-40ce-80b8-fd48cb678582",
+    "id": "3d006c39-e5a7-46f3-b8c3-7b02d35de1ac",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "BuddyPickup",
+    "name": "Buddy_Pickup",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

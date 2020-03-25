@@ -8,5 +8,3 @@ scr_player_movement();
 
 // Interaction with objects
 scr_pickup();
-
-// Interaction with enemies
