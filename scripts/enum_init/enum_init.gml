@@ -1,5 +1,6 @@
 enum states {
     path,
     chase,
-	backToPath
+	backToPath,
+	waitThere
 }

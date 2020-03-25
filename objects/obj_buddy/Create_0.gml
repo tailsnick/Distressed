@@ -1,4 +1,7 @@
-/// @description Insert description here
+/// @description Object Intilize
 // You can write your code in this editor
-spd = 3;
-distanceTrigger = 150;
+state = states.waitThere;
+//var spd;
+//var distanceTrigger;
+//var go_back_area;
+mov_path = path_add();
