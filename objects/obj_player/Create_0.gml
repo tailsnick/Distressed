@@ -1,5 +1,16 @@
 /// @description Player Constructor
 
+
+image_speed=0;
+
+
+
+
+
+
+
+
+
 //Movement variables
 left = 0;
 right = 0;
