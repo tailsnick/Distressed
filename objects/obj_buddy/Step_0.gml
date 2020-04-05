@@ -12,7 +12,7 @@ switch (state) {
 	case states.chase:
 		//update path based on player
 		if(mp_grid_path(global.grid, mov_path, x, y, obj_player.x, obj_player.y, 1)) {
-				path_start(mov_path, spd, path_action_continue, true);
+				path_start(mov_path, spd, path_action_stop, true);
 			}
 			
 		//Path home

@@ -3,8 +3,8 @@
 cell_height = 16;
 cell_width = 16;
 
-hcells = room_height div cell_height;
-wcells = room_width div cell_width;
+hcells = 1.58 * room_height div cell_height;
+wcells = 1.58 * room_width div cell_width;
 
 global.grid = mp_grid_create(0, 0, hcells, wcells, cell_width, cell_height);
 
