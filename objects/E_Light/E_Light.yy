@@ -2,7 +2,7 @@
     "id": "45009f19-d340-45ca-903a-ff292d4afccc",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Enemy_Light",
+    "name": "E_Light",
     "eventList": [
         {
             "id": "814a94b7-1524-4dab-8d41-212c882e59fa",
@@ -71,7 +71,22 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "9c9759d5-40de-4f85-a763-98b4a0fea76c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "obj_E_mov_1",
+            "varName": "Glow",
+            "varType": 5
+        }
+    ],
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
