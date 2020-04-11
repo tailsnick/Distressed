@@ -7,7 +7,8 @@
         "de2728bc-0604-4228-bb95-0783b450bb37",
         "b4d19831-88da-4e89-9ab2-c5c1947c739c",
         "76e26ebe-77d2-49d5-986b-eab601e5b4a6",
-        "8a620c01-9c9d-45dc-a936-0ef7d20cea46"
+        "8a620c01-9c9d-45dc-a936-0ef7d20cea46",
+        "88993419-dc37-4cf6-b821-c4205386c8a1"
     ],
     "filterType": "GMSprite",
     "folderName": "Main_Char",

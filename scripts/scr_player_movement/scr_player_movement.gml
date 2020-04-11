@@ -1,6 +1,18 @@
+
+//variables for animations
+image_speed = 0;
+walkSpeed= 3.5;
+
+
+
+
+
 //No movement
+
 if(up == false and down == false and right == false and left == false) {
 	//standing animation 
+	image_speed = 0;
+	image_index = 0;
 }
 
 
@@ -19,9 +31,15 @@ if place_meeting(x + spd * x_dir,y,par_wall) { //If colliding with a wall
 else {
 	if (right == true and left == false) {
 		//Right facing animation
+		image_speed= walkSpeed/ 3;
+		sprite_index = Main_SidewalkRight;
+		
 	}
 	else if (right == false and left == true) {
 		//Left facing animation
+		image_speed = walkSpeed / 3;
+		sprite_index = Main_SidewalkLeft; 
+		
 	}
 	x += spd * x_dir;
 }
@@ -42,9 +60,14 @@ if place_meeting(x,y + spd * y_dir,par_wall) { //If colliding with a wall
 else {
 	if (up == true and down == false) {
 		//Up facing animation
+		image_speed= walkSpeed/ 3;
+		sprite_index = Main_BackWalk;
+		
 	}
 	else if (up == false and down == true) {
 		//Down facing animation
+		image_speed= walkSpeed/ 3;
+		sprite_index = Main_FrontWalk;
 	}
 	y += spd * y_dir;
 }
