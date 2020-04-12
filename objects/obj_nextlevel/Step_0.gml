@@ -1,5 +1,4 @@
 
-//check for collision
 if (place_meeting(x, y ,obj_player)){
 	//if textbox not created yet, make one
 	
@@ -12,8 +11,9 @@ if (place_meeting(x, y ,obj_player)){
 } else {
 	if (myTextBox != noone) { 
 	instance_destroy (myTextBox);
-	instance_destroy(obj_Level1_Key);
+	instance_destroy(obj_nextlevel);
 	
+
 }
 
 }

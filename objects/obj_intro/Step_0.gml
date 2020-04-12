@@ -12,7 +12,9 @@ if (place_meeting(x, y ,obj_player)){
 } else {
 	if (myTextBox != noone) { 
 	instance_destroy (myTextBox);
-	myTextBox = noone;
+	instance_destroy(obj_intro);
+	
+
 }
 
 }
