@@ -82,6 +82,7 @@
             "Key": "071ef4f4-8a66-452b-ae85-ebdb56032c09",
             "Value": {
                 "id": "40b2497a-6f31-4fbe-b2c9-a80ef0873689",
+                "resourcePath": "sprites\\Spr_intro\\Spr_intro.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -875,6 +876,14 @@
                 "id": "be1a39ee-b39d-4180-94e7-8aae1ff45a74",
                 "resourcePath": "sprites\\BG_Trashcan\\BG_Trashcan.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6dd2df6f-361a-4e0a-87c6-d06b50ba1118",
+            "Value": {
+                "id": "da0f0271-1e57-4f27-9f0f-8e07a40d3109",
+                "resourcePath": "objects\\obj_tickettrigger\\obj_tickettrigger.yy",
+                "resourceType": "GMObject"
             }
         },
         {
