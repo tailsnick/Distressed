@@ -1,19 +1,8 @@
-
-if (place_meeting(x, y ,obj_player)){
-	//if textbox not created yet, make one
-	
-	if(myTextBox == noone) {
-	myTextBox= instance_create_layer (x,y, "Text", obj_textbox);
-	myTextBox.text = myText;
-	myTextBox.creator = self;
-	
+if (count < 2 and keyboard_check_pressed(vk_space)) {
+	count++;
+	myTextBox.text = myText[count];
 }
-} else {
-	if (myTextBox != noone) { 
+else if (count == 2 and keyboard_check_pressed(vk_space)) { 
 	instance_destroy (myTextBox);
 	instance_destroy(obj_nextlevel);
-	
-
-}
-
 }
